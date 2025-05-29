@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+input[type=button]{
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+input[type=tel]{
+    font-size: 22px;
+    height: 40px;
+    text-align: center;
+    width: 280px;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 40px;
+    background-color: coral;
+}
